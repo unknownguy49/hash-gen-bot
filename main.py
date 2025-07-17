@@ -1,6 +1,9 @@
 import discord
 import hashlib
 import os
+from dotenv import load_dotenv
+
+load_dotenv()
 
 intents = discord.Intents.default()
 client = discord.Client(intents=intents)
